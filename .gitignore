@@ -1,0 +1,9 @@
+*.aux
+Review.pdf
+*.toc
+*.bbl
+*.synctex.gz
+*.idx
+*.log
+*.blg
+*.spl

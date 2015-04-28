@@ -1,0 +1,49 @@
+
+\documentclass[letterpaper,11pt]{texReview}
+
+\begin{document}
+
+% Title of the article to be reviewed
+\revtitle{}
+
+% Title of journal, can be:
+%	- \ieeetnnls: IEEE Transactions on Neural Networks and Learning Systems.
+%	- \ieeecyb: IEEE Transactions on Cybernetics.
+%	- \cim: IEEE Computational Intelligence Magazine
+%	- \ins: Information Sciences.
+%	- \neunet: Neural Networks.
+%	- \cecn: Cognitive Computation
+\revjournal{\ieeetnnls}
+
+% ID of the article
+\revid{}
+
+% Authors of the article
+\revauthors{}
+
+% Logo (can use \ieeelogo, \elsevierlogo or \springerlogo)
+\revlogo{\ieeelogo}
+
+% Uncomment to change the title size (useful for articles with a very long title)
+% \renewcommand{\titlesize}{\Large}
+
+\makereviewtitle
+
+% Uncomment for the table of contents (note: this removes the footer on the first page)
+% \revtoc
+
+% Note that sections are not numbered by default
+
+\section{Comments to the authors}
+
+\section{Major points}
+
+\section{Moderate points}
+
+\section{Minor points}
+
+\phantomsection\addcontentsline{toc}{section}{References}
+\bibliographystyle{ieeetran}
+\bibliography{biblio}
+
+\end{document}
