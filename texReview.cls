@@ -116,3 +116,4 @@
 \newcommand{\neunet}{Neural Networks}
 \newcommand{\cim}{IEEE Computational Intelligence Magazine}
 \newcommand{\cecn}{Cognitive Computation}
+\newcommand{\soco}{Soft Computing}
