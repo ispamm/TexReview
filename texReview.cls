@@ -117,3 +117,6 @@
 \newcommand{\cim}{IEEE Computational Intelligence Magazine}
 \newcommand{\cecn}{Cognitive Computation}
 \newcommand{\soco}{Soft Computing}
+
+% Syntactic change
+\newcommand{\newtypo}[3]{\textbf{#1}: ``#2'' $\rightarrow$ ``#3''}
